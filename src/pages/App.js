@@ -1,6 +1,5 @@
 
-import styles from './App.module.css';
-import ContentText from './components/ContentText';
+import ContentText from '../components/ContentText';
 
 function App() {
   return (

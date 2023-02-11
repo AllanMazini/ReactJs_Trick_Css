@@ -1,4 +1,4 @@
-import styles from '../App.module.css';
+import styles from '../pages/App.module.css';
 
 
 function ContentText({ title, text }) {
