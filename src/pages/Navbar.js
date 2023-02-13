@@ -1,14 +1,16 @@
 import styles from './Navbar.module.css'
+import avatar from '../assets/avatar.png'
 
 function Navbar() {
     return (
-        <div className={styles.nav}>
+        <nav className={styles.nav}>
+            <img src={avatar} />
             <ul>
                 <li>Home</li>
                 <li>About</li>
                 <li>Contact</li>
             </ul>
-        </div>
+        </nav>
     )
 }
 
