@@ -2,6 +2,7 @@
   margin: 0;
 
   font-family: 'Raleway', sans-serif;
+
 }
 
 p,
@@ -16,15 +17,21 @@ h2 {
 }
 
 section {
+ 
   padding: 40px 0;
 }
 
+
 .image {
-  height: 200px;
+
+  height: 90px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-image: url("../assets/books.jpg");
+
+  background-image: url("./assets/books.jpg");
+
+
 }
 
 .text {
@@ -43,6 +50,7 @@ section {
   width: 100%;
   height: 100%;
   background: #fff;
+
 
 
 }

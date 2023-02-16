@@ -1,39 +1,37 @@
-.nav {
-    display: flex;
-    justify-content: space-between;
+.footer {
+
+    width: 100%;
+    height: 90px;
+    position: sticky;
     background-color: rgb(41, 41, 41);
     background-image:
         radial-gradient(at 80% 0%, rgb(106, 106, 106) 0px, transparent 50%),
         radial-gradient(at 0% 50%, rgb(50, 49, 61) 0px, transparent 50%),
         radial-gradient(at 80% 100%, rgb(72, 72, 72) 0px, transparent 50%),
         radial-gradient(at 0% 0%, rgb(25, 25, 25) 0px, transparent 50%);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 120px;
-    position: sticky;
-    z-index: 2;
+    padding: 2em 0;
 
 }
 
-.nav ul {
+.footer ul {
     display: flex;
-    align-items: center;
     list-style: none;
-    margin: 0 15%;
-    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
 
 }
 
-.nav li {
-    margin-right: 2em;
+.footer li {
+    padding: 0 10px;
 }
+
 
 .item a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: all 0.3s;
-
 }
 
 .item a:hover {
@@ -41,14 +39,19 @@
     border: 1px solid white;
     border-radius: 39% 61% 32% 68% / 47% 37% 63% 53%;
     padding: 10px;
-
-
 }
 
-.nav img {
+.footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(171, 171, 171);
+}
 
-    margin: 10px 15%;
-    border-radius: 2em 5em 3em 4em / 4em 2em 5em 2em;
-    background-image: linear-gradient(to bottom right, rgb(99, 38, 242), rgb(23, 8, 63));
+.copy_right span {
+    font-weight: bold;
+    color: rgb(211, 211, 211);
+    padding-left: 40px;
 
 }
