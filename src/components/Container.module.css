@@ -1,0 +1,10 @@
+.container {
+    width: 1200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.min_height {
+    min-height: 75vh;
+}

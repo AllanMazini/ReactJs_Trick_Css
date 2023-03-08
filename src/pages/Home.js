@@ -1,8 +1,15 @@
 import ContentText from '../components/ContentText';
+import { motion } from 'framer-motion';
 
 function Home() {
     return (
-        <>
+
+
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+        >
             <ContentText
                 title='Como se dá normalmente o processo criativo?'
                 text='Antes de chegar a uma ideia inovadora, normalmente, o criador passa por vários processos que ajudam a lapidar um insight até que se torne o produto final. Descubra quais são os processos criativos.'
@@ -25,7 +32,7 @@ function Home() {
                 Como é o último passo, existe uma confusão a respeito da visão externa do processo criativo. É normal que muitas pessoas não reconheçam e nem imaginem o caminho que foi percorrido para a concepção e realização da ideia.
                 No ambiente profissional, isso pode se traduzir em prazos irreais ou que não compreendam todo o processo criativo.'
             />
-        </>
+        </motion.div>
     )
 }
 export default Home;
